@@ -19,7 +19,6 @@ let
       (s: s != "override" && s != "overrideDerivation")
       (attrNames models)
     )
-    # (attrNames models)
     ++ [ null ] # this generates a package without an embedded model that can be passed models at runtime
   ;
 
