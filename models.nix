@@ -29,6 +29,12 @@ let
             "llama-2-7b-chat.Q5_K_M.gguf" = "sha256-4LmZIM9HuUx40vsGoezrnteVF236P3/qxkYp8bUrmX8=";
           };
         };
+        "Llama-2-13B-chat-GGUF" = {
+          commit = "4458acc949de0a9914c3eab623904d4fe999050a";
+          models = {
+            "llama-2-13b-chat.Q5_K_M.gguf" = "sha256-7zbgkCQAQPlzJXWMGtjiPzgBRmqO7OOp6sLSLZQvVIo=";
+          };
+        };
       };
     };
   };
