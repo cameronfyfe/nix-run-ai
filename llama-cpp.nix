@@ -1,6 +1,6 @@
 { writeShellScriptBin
 , llama-cpp
-, models
+, model-pkgs
 }:
 
 let
@@ -17,7 +17,7 @@ let
     #   For now all models in this repo are for llama-cpp so grab all of them
     (filter
       (s: s != "override" && s != "overrideDerivation")
-      (attrNames models)
+      (attrNames model-pkgs)
     )
     ++ [ null ] # this generates a package without an embedded model that can be passed models at runtime
   ;
@@ -32,7 +32,7 @@ let
               (acc: model: acc // (
                 let
                   overrides = if mode == "cuda" then { cudaSupport = true; } else { };
-                  args = if model != null then "--model ${models.${model}}" else "";
+                  args = if model != null then "--model ${model-pkgs.${model}}" else "";
                   bin = "${llama-cpp.override overrides}/bin/llama-cpp-${cmd}";
                   name =
                     if model != null then

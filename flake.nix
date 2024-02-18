@@ -17,9 +17,11 @@
 
         inherit (pkgs) callPackage mkShell writeShellScriptBin;
 
-        models = callPackage ./models.nix { };
+        models = import ./models.nix;
 
-        llama-cpp = callPackage ./llama-cpp.nix { inherit models; };
+        model-pkgs = callPackage ./model-pkgs.nix { inherit models; };
+
+        llama-cpp = callPackage ./llama-cpp.nix { inherit model-pkgs; };
 
       in
       rec {
