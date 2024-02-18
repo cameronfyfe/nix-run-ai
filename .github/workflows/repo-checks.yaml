@@ -1,0 +1,34 @@
+name: Repo Checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  fmt-check:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: cachix/install-nix-action@v25
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - uses: actions/checkout@v4
+
+      - run: nix develop -c just fmt-check
+
+  readme-check:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: cachix/install-nix-action@v25
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+
+      - uses: actions/checkout@v4
+
+      - run: nix develop -c just readme-check
+
