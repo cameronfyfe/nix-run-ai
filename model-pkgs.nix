@@ -42,18 +42,14 @@ let
   # HuggingFace model packages
   hf-model-packages =
     foldl'
-      (acc: pkg: acc // (with pkg;
-      let
-        repoStr = replaceStrings [ "." ] [ "_" ] repo;
-        modelStr = replaceStrings [ "." ] [ "_" ] model;
-      in
-      {
-        "HF__${owner}__${repoStr}__${modelStr}" = fetchHuggingFaceModel {
-          inherit owner repo model;
-          commit = hf.${owner}.${repo}.commit;
-          hash = hf.${owner}.${repo}.models."${model}";
-        };
-      }
+      (acc: pkg: acc // (
+        let
+          repo-str = replaceStrings [ "." ] [ "_" ] pkg.repo;
+          model-str = replaceStrings [ "." ] [ "_" ] pkg.model;
+        in
+        {
+          "HF__${pkg.owner}__${repo-str}__${model-str}" = fetchHuggingFaceModel pkg;
+        }
       ))
       { }
       hf-model-list;
