@@ -52,6 +52,8 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__TheBloke__Llama-2
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q5_K_S_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q6_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q8_0_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-fp16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__TheBloke__CapybaraHermes-2_5-Mistral-7B-GGUF__capybarahermes-2_5-mistral-7b_Q4_K_M_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__TheBloke__Llama-2-13B-chat-GGUF__llama-2-13b-chat_Q5_K_M_gguf 
@@ -67,6 +69,8 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__TheBloke__Llama-
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q5_K_S_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q6_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q8_0_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-fp16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__TheBloke__CapybaraHermes-2_5-Mistral-7B-GGUF__capybarahermes-2_5-mistral-7b_Q4_K_M_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__TheBloke__Llama-2-13B-chat-GGUF__llama-2-13b-chat_Q5_K_M_gguf 
@@ -82,6 +86,8 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__TheBloke__Llam
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q5_K_S_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q6_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q8_0_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-fp16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__TheBloke__CapybaraHermes-2_5-Mistral-7B-GGUF__capybarahermes-2_5-mistral-7b_Q4_K_M_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__TheBloke__Llama-2-13B-chat-GGUF__llama-2-13b-chat_Q5_K_M_gguf 
@@ -97,4 +103,6 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__TheBloke__Lla
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q5_K_S_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q6_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__TheBloke__Llama-2-7B-Chat-GGUF__llama-2-7b-chat_Q8_0_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-fp16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 ```

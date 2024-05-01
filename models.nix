@@ -1,5 +1,14 @@
 {
   huggingface = {
+    microsoft = {
+      "Phi-3-mini-4k-instruct-gguf" = {
+        commit = "c80d904a71b99a3eaeb8d3dbf164166384c09dc3";
+        models = {
+          "Phi-3-mini-4k-instruct-fp16.gguf" = "sha256-XZkAPjlXdWWbDd4/lB2I/zeLKDeo3DouqUIiqxQg+tM=";
+          "Phi-3-mini-4k-instruct-q4.gguf" = "sha256-ioPH+5BJqbLpImb6etBJM7tTqh6FE2t7MPG4AA/y7e8=";
+        };
+      };
+    };
     TheBloke = {
       "CapybaraHermes-2.5-Mistral-7B-GGUF" = {
         commit = "8bea614edd9a2d5d9985a6e6c1ecc166261cacb8";
