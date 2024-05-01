@@ -8,7 +8,7 @@ let
   inherit (builtins) attrNames filter foldl';
 
   # llama-cpp commands, modes, and models to generate packages for
-  cmds = [ "main" "server" ];
+  cmds = [ "cli" "server" ];
   modes = [ "cpu" "cuda" ];
   llama-cpp-supported-models =
     # TODO:
@@ -33,7 +33,14 @@ let
                 let
                   overrides = if mode == "cuda" then { cudaSupport = true; } else { };
                   args = if model != null then "--model ${model-pkgs.${model}}" else "";
-                  bin = "${llama-cpp.override overrides}/bin/llama-cpp-${cmd}";
+                  binFile =
+                    if cmd == "cli" then
+                      "llama"
+                    else if cmd == "server" then
+                      "llama-server"
+                    else
+                      throw "Unknown llama-cpp command: ${cmd}";
+                  bin = "${llama-cpp.override overrides}/bin/${binFile}";
                   name =
                     if model != null then
                       "llama-cpp__${cmd}__${mode}__${model}" else
