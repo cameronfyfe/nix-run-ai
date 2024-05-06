@@ -40,5 +40,27 @@
         };
       };
     };
+    QuantFactory = {
+      "Meta-Llama-3-8B-Instruct-GGUF" = {
+        commit = "071f0830e6b83051d4626c5d95c1b33ebcbedad0";
+        models = {
+          "Meta-Llama-3-8B-Instruct.Q2_K.gguf" = "sha256-fAgV4g8g5fM31h511LIA594yTQjUv2EtX5V/xA/DA3A=";
+          "Meta-Llama-3-8B-Instruct.Q3_K_L.gguf" = "sha256-FBFZGjtAXvRTE+klYOeiiSARSioRpueteaNtm1jMAIQ=";
+          "Meta-Llama-3-8B-Instruct.Q3_K_M.gguf" = "sha256-7Vc34DGAzUXzgrm+mvklEGAUj5vlUjDbf8TTc0vf2PU=";
+          "Meta-Llama-3-8B-Instruct.Q3_K_S.gguf" = "sha256-d0ukIu6sMLI5DnKWBpSzXrp0as2CeFstZEyScW7Uebs=";
+          "Meta-Llama-3-8B-Instruct.Q4_0.gguf" = "sha256-Gd7Zlv5sYCVNx1RNeCJ27/QQRu1Cql8tAAXcRX5cCJU=";
+          "Meta-Llama-3-8B-Instruct.Q4_1.gguf" = "sha256-/T5dxB2bIe4x1hBPHPi5MnAQEZqSvDGEdTpkUS3wmCM=";
+          "Meta-Llama-3-8B-Instruct.Q4_K_M.gguf" = "sha256-ZHorZMvNvmcEMtBQLrslkrNt02TVGp73oTh7ekNleB8=";
+          "Meta-Llama-3-8B-Instruct.Q4_K_S.gguf" = "sha256-U+7/6dAY7dB13LdWL6FFnS70WXYZ8gdVJGdurQFsCj0=";
+          "Meta-Llama-3-8B-Instruct.Q5_0.gguf" = "sha256-BFpYhrzGDCHHsvFLx9+lhL469h8tjyqWMC0OWyBQl8s=";
+          "Meta-Llama-3-8B-Instruct.Q5_1.gguf" = "sha256-t16P5Lp0uwC4qA4J9tj0MCIsBR9AVxwUDVaA4FgFMvY=";
+          "Meta-Llama-3-8B-Instruct.Q5_K_M.gguf" = "sha256-1rT4iaAK/JDhIWu1z4FLFxHtGHBFPH3Yt/FcxgAaBl4=";
+          "Meta-Llama-3-8B-Instruct.Q5_K_S.gguf" = "sha256-T+QXDmnCf+Plij+EVu5SJyELnNhRF/VtLi/p+tTznYU=";
+          "Meta-Llama-3-8B-Instruct.Q6_K.gguf" = "sha256-t7rUVhjip2zB6JoPu5Oiysm/QQ4nphnIAk7W21Oqm0o=";
+          "Meta-Llama-3-8B-Instruct.Q8_0.gguf" = "sha256-jJZqnsJbp74PklLeTmiU3EBSayibaVJRcuNQh7g0UeI=";
+        };
+      };
+    };
   };
 }
+
