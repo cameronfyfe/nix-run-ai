@@ -8,6 +8,13 @@
           "Phi-3-mini-4k-instruct-q4.gguf" = "sha256-ioPH+5BJqbLpImb6etBJM7tTqh6FE2t7MPG4AA/y7e8=";
         };
       };
+      "phi-4-gguf" = {
+        commit = "b1e764cfdbdd0a3ed824d6a8424129eb0a2232ff";
+        models = {
+          "phi-4-fp16.gguf" = "sha256-7vvfNjcNysGKqNFbrOGeML46biIeVEi1f3+ifqGX8us=";
+          "phi-4-q4.gguf" = "sha256-q3BP+gl/WQK5N8pdDBZiJvEgHnSS2jD6ThwIbCF6/Ws=";
+        };
+      };
     };
     TheBloke = {
       "CapybaraHermes-2.5-Mistral-7B-GGUF" = {
