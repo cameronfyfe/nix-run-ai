@@ -47,6 +47,21 @@
         };
       };
     };
+    unsloth = {
+      "DeepSeek-R1-Distill-Llama-8B-GGUF" = {
+        commit = "70661aa9b9e6c69734b394916ddbc540fd4731bf";
+        models = {
+          "DeepSeek-R1-Distill-Llama-8B-F16.gguf" = "sha256-Tk588JRqudY6QTFsEVyb2daAWMHksmX8UcOHFZc4CIw=";
+          "DeepSeek-R1-Distill-Llama-8B-Q2_K.gguf" = "sha256-VhB0kuNhZezGJcG4mddDl+Zi0E0ubyqVkGYIGIkwxZg=";
+          "DeepSeek-R1-Distill-Llama-8B-Q2_K_L.gguf" = "sha256-8KGdtjhgaXVS4yx0erPMpted8MqgN/u/yv/IIdxv/LA=";
+          "DeepSeek-R1-Distill-Llama-8B-Q3_K_M.gguf" = "sha256-StFf63tEUF9G6n2UnmuEXZcUVe7gt/HqLpETlIWx5Mk=";
+          "DeepSeek-R1-Distill-Llama-8B-Q4_K_M.gguf" = "sha256-+OuiAVIqtEt5vFQWYSa/r4NhEf9Mvy0TxZw7V9oQVzs=";
+          "DeepSeek-R1-Distill-Llama-8B-Q5_K_M.gguf" = "sha256-fNnqpCqgkyasmvWVY0IeqJut45IqtsHi72gOH5nTcho=";
+          "DeepSeek-R1-Distill-Llama-8B-Q6_K.gguf" = "sha256-Yne11ylWLy4BQ2yBuRm1tpCEAiVgx3yY1ypdb8IV8T4=";
+          "DeepSeek-R1-Distill-Llama-8B-Q8_0.gguf" = "sha256-jG45JNZi0/JKlrIopcMXUQwn6RxYfnHniHftGKh17II=";
+        };
+      };
+    };
     QuantFactory = {
       "Meta-Llama-3-8B-Instruct-GGUF" = {
         commit = "071f0830e6b83051d4626c5d95c1b33ebcbedad0";
