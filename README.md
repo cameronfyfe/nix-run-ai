@@ -70,6 +70,14 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__microsoft__Phi-3-
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__microsoft__phi-4-gguf__phi-4-fp16_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__microsoft__phi-4-gguf__phi-4-q4_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-F16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_L_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q3_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q4_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q5_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q6_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q8_0_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__QuantFactory__Meta-Llama-3-8B-Instruct-GGUF__Meta-Llama-3-8B-Instruct_Q2_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__QuantFactory__Meta-Llama-3-8B-Instruct-GGUF__Meta-Llama-3-8B-Instruct_Q3_K_L_gguf 
@@ -103,6 +111,14 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__microsoft__Phi-3
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__microsoft__phi-4-gguf__phi-4-fp16_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__microsoft__phi-4-gguf__phi-4-q4_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-F16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_L_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q3_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q4_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q5_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q6_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__cli__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q8_0_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__QuantFactory__Meta-Llama-3-8B-Instruct-GGUF__Meta-Llama-3-8B-Instruct_Q2_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__QuantFactory__Meta-Llama-3-8B-Instruct-GGUF__Meta-Llama-3-8B-Instruct_Q3_K_L_gguf 
@@ -136,6 +152,14 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__microsoft__Phi
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__microsoft__phi-4-gguf__phi-4-fp16_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__microsoft__phi-4-gguf__phi-4-q4_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-F16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_L_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q3_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q4_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q5_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q6_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cpu__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q8_0_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__QuantFactory__Meta-Llama-3-8B-Instruct-GGUF__Meta-Llama-3-8B-Instruct_Q2_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__QuantFactory__Meta-Llama-3-8B-Instruct-GGUF__Meta-Llama-3-8B-Instruct_Q3_K_L_gguf 
@@ -169,4 +193,12 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__microsoft__Ph
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__microsoft__Phi-3-mini-4k-instruct-gguf__Phi-3-mini-4k-instruct-q4_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__microsoft__phi-4-gguf__phi-4-fp16_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__microsoft__phi-4-gguf__phi-4-q4_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-F16_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_L_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q2_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q3_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q4_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q5_K_M_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q6_K_gguf 
+nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Llama-8B-GGUF__DeepSeek-R1-Distill-Llama-8B-Q8_0_gguf 
 ```
