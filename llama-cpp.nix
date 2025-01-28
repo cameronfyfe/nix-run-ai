@@ -49,7 +49,14 @@ let
                 {
                   "${name}" = writeShellScriptBin "nix-run-llama-cpp" ''
                     #!/usr/bin/env bash
-                    ${bin} ${args} $@
+                    if ldd ${bin} | grep stubs > /dev/null 2>&1; then
+                      # binary links to libcuda stub library, replace with local library installed with driver
+                      # TODO: be smarter about finding / validating local libcuda
+                      LD_PRELOAD=/lib/x86_64-linux-gnu/libcuda.so.1 ${bin} ${args} $@
+                    else
+                      # libcuda should be good to go
+                      ${bin} ${args} $@
+                    fi
                   '';
                 }
               ))
