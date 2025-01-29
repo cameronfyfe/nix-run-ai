@@ -61,6 +61,56 @@
           "DeepSeek-R1-Distill-Llama-8B-Q8_0.gguf" = "sha256-jG45JNZi0/JKlrIopcMXUQwn6RxYfnHniHftGKh17II=";
         };
       };
+      "DeepSeek-R1-Distill-Qwen-1.5B-GGUF" = {
+        commit = "9784122b3247cc074b19c42bf38ee256d8aacce7";
+        models = {
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q2_K.gguf" = "sha256-4YFCtpstvaxZ7Ka/d93iBUB4ADvLlTTgLnyhzybrVnU=";
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q2_K_L.gguf" = "sha256-b2ybl626EUJ7E7wVmmiIHRPZkhkWWzv/GwCbJwGHI9s=";
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q3_K_M.gguf" = "sha256-G/bY47YVkYbgvyaNUrsidZooTK4xnGVEcSz7K9+20B8=";
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf" = "sha256-wsQ7YBjPdwDODd7ogH3rGpomdY74eCMvOhQtFt+B8P4=";
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q5_K_M.gguf" = "sha256-7PvK5LJyu757+xuESdf+oESKmah8JfYyG53UjtulhEY=";
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q6_K.gguf" = "sha256-1wDHSeNkU3Z91lx+Mb+GDnr4+sXrmxbqhZJ25tvb2fU=";
+          "DeepSeek-R1-Distill-Qwen-1.5B-Q8_0.gguf" = "sha256-rzo/xk19CxjxXyj+q61XGNYg3FYmpcHqutM93CtdCak=";
+        };
+      };
+      "DeepSeek-R1-Distill-Qwen-7B-GGUF" = {
+        commit = "097680e4eed7a83b3df6b0bb5e5134099cadf1b0";
+        models = {
+          "DeepSeek-R1-Distill-Qwen-7B-F16.gguf" = "sha256-EfR0rxQglnnLfZUv96P2icqXLNMemqINub0pkkvLYcg=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q2_K.gguf" = "sha256-doBVXKY104zYUQlfDyHK7QYy8CEAUDf31oned+j2TDU=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q2_K_L.gguf" = "sha256-/gf32ynNVhVC56jlWjbsIEKUheHbbWVkt+h5zCkWZhQ=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q3_K_M.gguf" = "sha256-CTH5Rsb0OaO1zAIm853OFMCSwu5Dhr6Y8SymMFzvfsc=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q4_K_M.gguf" = "sha256-eCctjTIIRUi9RQOUpWDrLXDegjKrlqcldpsfkXEjXBw=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q5_K_M.gguf" = "sha256-SieH4Qdnvg8E7ignIfglCp7hbIMwy5OlfjNyewKUjFo=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q6_K.gguf" = "sha256-sYcw/B6Kp2+38TYuOmRWnVUr3tVAwlbxGUDs/V32Uiw=";
+          "DeepSeek-R1-Distill-Qwen-7B-Q8_0.gguf" = "sha256-cwe/u1Of0ujtY2MVRAeB/tIxQNx/kR9kszQY9bl4KBs=";
+        };
+      };
+      "DeepSeek-R1-Distill-Qwen-14B-GGUF" = {
+        commit = "7b05b58b41f623e66fc74cd27b35475267b2f3e3";
+        models = {
+          "DeepSeek-R1-Distill-Qwen-14B-F16.gguf" = "sha256-MlEHKqatJJY0i0sgQ/iOYdDTV43bALTI74DEP6yDOQY=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q2_K.gguf" = "sha256-pqXCB4gd42YDMGrtpADFZhQdInLN2UY4d2cFEgirAP0=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q2_K_L.gguf" = "sha256-17OLESqbdufpJv0oJrbiqjJcm/5Br6ZXQvxPOjp1HDg=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q3_K_M.gguf" = "sha256-Kz7odz7tAQRxfPzhTzKvyrJS+pc6124tc3OmluT4eCA=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf" = "sha256-Z6eTPPKtWWo5PI4TswvE2i1QsoPiULeFVK7RiBfsoxw=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf" = "sha256-pIgdJm3pfMX+3qwS7JKEawoMb3baind+trblfVuA1kQ=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q6_K.gguf" = "sha256-J4w9n/VxD55U2zsJ3/WqfD+WlSYkEoTjah63MRmzDS0=";
+          "DeepSeek-R1-Distill-Qwen-14B-Q8_0.gguf" = "sha256-m+eOIk2ZU1rYHxkr+ZO90B9458xhFkK2T9VF4Q/bP8Q=";
+        };
+      };
+      "DeepSeek-R1-Distill-Qwen-32B-GGUF" = {
+        commit = "1938d05cc893a60f37be1dc16e7465038f4fca63";
+        models = {
+          "DeepSeek-R1-Distill-Qwen-32B-Q2_K.gguf" = "sha256-O+ZhVx50r54zaPdLMmH5q7GQPBViG1nnHxnoIWwJGhM=";
+          "DeepSeek-R1-Distill-Qwen-32B-Q2_K_L.gguf" = "sha256-R1iOp4ZQipLc0Uqd0XrexDRIpI7K5ri7xa6O2BpCWb8=";
+          "DeepSeek-R1-Distill-Qwen-32B-Q3_K_M.gguf" = "sha256-YY+Wr1+w33MJPUn/m2Eaqy7D/oeMj7Xbl4fFCks3qb0=";
+          "DeepSeek-R1-Distill-Qwen-32B-Q4_K_M.gguf" = "sha256-yhccoDVU7iDPZ61rVAYQrn6ruVrwDAq9NrtzVC4UD7U=";
+          "DeepSeek-R1-Distill-Qwen-32B-Q5_K_M.gguf" = "sha256-e8z4mv+R7Wq0+HDZUjtHfRpRwDP8fsHJ5amfuLlbOfU=";
+          "DeepSeek-R1-Distill-Qwen-32B-Q6_K.gguf" = "sha256-HaCPdeIF5gftalBN/LEAZUjRGCVTyw5ddVxp1RefpXw=";
+          "DeepSeek-R1-Distill-Qwen-32B-Q8_0.gguf" = "sha256-50WIoWPrL4YeWymMCXUQHPAux7EHhIMrj+qyq78wkKc=";
+        };
+      };
     };
     QuantFactory = {
       "Meta-Llama-3-8B-Instruct-GGUF" = {
