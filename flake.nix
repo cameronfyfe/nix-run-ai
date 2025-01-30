@@ -23,6 +23,8 @@
 
         llama-cpp = callPackage ./llama-cpp.nix { inherit model-pkgs; };
 
+        mcp-servers = callPackage ./mcp-servers { };
+
       in
       rec {
 
@@ -36,7 +38,9 @@
           });
         };
 
-        packages = llama-cpp.packages;
+        packages =
+          llama-cpp.packages
+          // mcp-servers.packages;
 
       }));
 }

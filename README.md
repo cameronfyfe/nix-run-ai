@@ -321,4 +321,5 @@ nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__Deep
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Qwen-7B-GGUF__DeepSeek-R1-Distill-Qwen-7B-Q5_K_M_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Qwen-7B-GGUF__DeepSeek-R1-Distill-Qwen-7B-Q6_K_gguf 
 nix run github:cameronfyfe/nix-run-ai#llama-cpp__server__cuda__HF__unsloth__DeepSeek-R1-Distill-Qwen-7B-GGUF__DeepSeek-R1-Distill-Qwen-7B-Q8_0_gguf 
+nix run github:cameronfyfe/nix-run-ai#mcp-server-tmdb 
 ```
