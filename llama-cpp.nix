@@ -1,4 +1,5 @@
-{ writeShellScriptBin
+{ stdenv
+, writeShellScriptBin
 , llama-cpp
 , model-pkgs
 }:
@@ -21,6 +22,9 @@ let
     )
     ++ [ null ] # this generates a package without an embedded model that can be passed models at runtime
   ;
+
+  # TODO: do this better
+  linker-help = if stdenv.isAarch64 then "LD_LIBRARY_PATH=/usr/lib/aarch64-linux-gnu/nvidia" else "LD_PRELOAD=/lib/x86_64-linux-gnu/libcuda.so.1";
 
   # package set with all combinations of llama-cpp commands, modes, and models
   packages =
@@ -47,17 +51,18 @@ let
                       "llama-cpp__${cmd}__${mode}";
                 in
                 {
-                  "${name}" = writeShellScriptBin "nix-run-llama-cpp" ''
+                  "${name}" = writeShellScriptBin "nix-run-llama-cpp" (if stdenv.isAarch64 then ''
+                    #!/usr/bin/env bash
+                    ${linker-help} ${bin} ${args} $@
+                  '' else ''
                     #!/usr/bin/env bash
                     if ldd ${bin} | grep stubs > /dev/null 2>&1; then
-                      # binary links to libcuda stub library, replace with local library installed with driver
-                      # TODO: be smarter about finding / validating local libcuda
-                      LD_PRELOAD=/lib/x86_64-linux-gnu/libcuda.so.1 ${bin} ${args} $@
+                      ${linker-help} ${bin} ${args} $@
                     else
                       # libcuda should be good to go
                       ${bin} ${args} $@
                     fi
-                  '';
+                  '');
                 }
               ))
               { }
